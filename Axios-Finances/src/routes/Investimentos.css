@@ -1,0 +1,220 @@
+/* Investimentos.css */
+
+.investimentos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7fafc;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.reset-section button {
+  background-color: rgb(196, 96, 96);
+}
+.reset-section button:hover {
+  background-color: rgb(147, 33, 33);
+}
+
+.investimentos h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1a202c;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #1a202c;
+}
+
+.form-control input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input {
+  width: 50%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  justify-items: auto;
+}
+.form-control input[type="number"]:focus {
+  outline: none;
+  border-color: #1e9e6a;
+}
+
+.form-control button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e9e6a;
+  color: white;
+  cursor: pointer;
+}
+
+.form-control button:hover {
+  background-color: #1a8245;
+}
+
+.grafico-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.valores-section {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
+
+.investimento-info {
+  margin-bottom: 10px;
+  color: #1a202c;
+}
+
+.investimento-info .flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.investimento-info .edit-button,
+.investimento-info .save-button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e9e6a;
+  color: white;
+  cursor: pointer;
+}
+
+.investimento-info .edit-button:hover,
+.investimento-info .save-button:hover {
+  background-color: #1a8245;
+}
+
+.total-investiment {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #1a202c;
+}
+.total-investiment {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1b2621;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e9e6a;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1a7e5c;
+}
+
+.grafico-section {
+  margin-bottom: 20px;
+}
+
+.valores-section {
+  margin-top: 20px;
+}
+
+.investimentos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.investimentos-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.investimentos-list span {
+  font-weight: bold;
+}
+
+.total-investimento {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.total-investiment {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+  .form-control {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .investimento-info .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .investimento-info .edit-button,
+  .investimento-info .save-button {
+    margin-top: 5px;
+  }
+}

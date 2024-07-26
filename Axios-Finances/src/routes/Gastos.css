@@ -1,0 +1,182 @@
+/* Gastos.css */
+.gastos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7fafc;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gastos h2 {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1e9e6a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #1a8d5f;
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+td::first-letter {
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-btn {
+  margin-right: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-control input {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-right: 5px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  .form-control input {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 4px 10px;
+    margin-right: 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  th,
+  td {
+    text-align: left;
+  }
+
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  th {
+    display: table-cell;
+    text-align: left;
+  }
+
+  td {
+    display: table-cell;
+    text-align: left;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    display: table;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-container button {
+    width: 44%;
+    margin: 1%;
+    font-size: 11px;
+    align-items: left;
+  }
+}

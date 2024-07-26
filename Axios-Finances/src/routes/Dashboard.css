@@ -1,0 +1,153 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7fafc;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.summary div {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 30%;
+  margin: 10px;
+}
+
+.summary h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1e9e6a;
+}
+
+.total-saida h2 {
+  color: #f44336;
+}
+
+.saldo h2 {
+  color: #333;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.form-control button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1e9e6a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form-control button:hover {
+  background-color: #167c55;
+}
+
+.form-control button + button {
+  background-color: #2196f3;
+  margin-left: 0.5rem;
+}
+
+.form-control button + button:hover {
+  background-color: #1976d2;
+}
+
+/* Estilização para todos os botões */
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1e9e6a;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #167c55;
+}
+
+button + button {
+  background-color: #e70808;
+  margin-left: 0.5rem;
+}
+
+button + button:hover {
+  background-color: #930606;
+}
+
+.summary div button {
+  background-color: #1976d2;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .summary {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .summary div {
+    flex: 1 1 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    padding: 10px;
+  }
+
+  .dashboard h1 {
+    font-size: 1.5rem;
+  }
+
+  .summary h2 {
+    font-size: 1.2rem;
+  }
+
+  .form-control input,
+  .form-control button {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+}
