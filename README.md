@@ -2,6 +2,10 @@
 
 [Visite o site](https://axios-finances.vercel.app/)
 
+
+![Resumo do projeto](https://raw.githubusercontent.com/LandGabriel/Finance-App-Axios/main/Axios-Finances/src/assets/Design-project.png)
+
+
 ## Descrição
 
 Axios Finances é uma aplicação web para gerenciamento financeiro pessoal, onde os usuários podem registrar e acompanhar entradas e saídas de dinheiro, além de visualizar o saldo atualizado. A aplicação foi desenvolvida com React e Vite, utilizando várias funcionalidades e bibliotecas para proporcionar uma experiência de usuário fluida e eficiente.
